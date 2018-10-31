@@ -21,9 +21,9 @@ public class algoritm_bubble {
          for (int k = massiv.length - 1; k > 0; k--) {
             for (int l = 0; l < k; l++) {
              if (massiv[l] > massiv[l + 1]) {
-               int tmp = massiv[l];
+               int temp = massiv[l];
                massiv[l] = massiv[l + 1];
-               massiv[l + 1] = tmp;
+               massiv[l + 1] = temp;
                         }
                     }
                 }System.out.println("Резульат сортировки =");
